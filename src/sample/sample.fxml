@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Text?>
+
+<GridPane alignment="center" hgap="10" prefHeight="329.0" prefWidth="601.0" vgap="10" xmlns="http://javafx.com/javafx/8.0.112" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+    <columnConstraints>
+        <ColumnConstraints />
+    </columnConstraints>
+    <rowConstraints>
+        <RowConstraints />
+    </rowConstraints>
+    <children>
+        <Pane prefHeight="473.0" prefWidth="601.0">
+            <children>
+                <Rectangle fx:id="rect1" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="51.0" layoutX="24.0" layoutY="32.0" stroke="BLACK" strokeType="INSIDE" width="53.0" />
+                <Rectangle fx:id="rect2" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="51.0" layoutX="77.0" layoutY="32.0" stroke="BLACK" strokeType="INSIDE" width="53.0" />
+                <Rectangle fx:id="rect3" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="51.0" layoutX="130.0" layoutY="32.0" stroke="BLACK" strokeType="INSIDE" width="53.0" />
+                <Rectangle fx:id="rect4" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="51.0" layoutX="183.0" layoutY="32.0" stroke="BLACK" strokeType="INSIDE" width="53.0" />
+                <Rectangle fx:id="rect5" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="51.0" layoutX="236.0" layoutY="32.0" stroke="BLACK" strokeType="INSIDE" width="53.0" />
+                <Rectangle fx:id="rect6" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="51.0" layoutX="289.0" layoutY="32.0" stroke="BLACK" strokeType="INSIDE" width="53.0" />
+                <Rectangle fx:id="rect7" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="51.0" layoutX="342.0" layoutY="32.0" stroke="BLACK" strokeType="INSIDE" width="53.0" />
+                <Rectangle fx:id="rect8" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="51.0" layoutX="395.0" layoutY="32.0" stroke="BLACK" strokeType="INSIDE" width="53.0" />
+                <Rectangle fx:id="rect9" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="51.0" layoutX="448.0" layoutY="32.0" stroke="BLACK" strokeType="INSIDE" width="53.0" />
+                <Rectangle fx:id="rect10" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="51.0" layoutX="501.0" layoutY="32.0" stroke="BLACK" strokeType="INSIDE" width="53.0" />
+                <Rectangle fx:id="rect11" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="51.0" layoutX="24.0" layoutY="83.0" stroke="BLACK" strokeType="INSIDE" visible="false" width="53.0" />
+                <Rectangle fx:id="rect12" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="51.0" layoutX="77.0" layoutY="83.0" stroke="BLACK" strokeType="INSIDE" visible="false" width="53.0" />
+                <Rectangle fx:id="rect13" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="51.0" layoutX="130.0" layoutY="83.0" stroke="BLACK" strokeType="INSIDE" visible="false" width="53.0" />
+                <Rectangle fx:id="rect14" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="51.0" layoutX="183.0" layoutY="83.0" stroke="BLACK" strokeType="INSIDE" visible="false" width="53.0" />
+                <Rectangle fx:id="rect15" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="51.0" layoutX="236.0" layoutY="83.0" stroke="BLACK" strokeType="INSIDE" visible="false" width="53.0" />
+                <Rectangle fx:id="rect16" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="51.0" layoutX="289.0" layoutY="83.0" stroke="BLACK" strokeType="INSIDE" visible="false" width="53.0" />
+                <Rectangle fx:id="rect17" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="51.0" layoutX="342.0" layoutY="83.0" stroke="BLACK" strokeType="INSIDE" visible="false" width="53.0" />
+                <Rectangle fx:id="rect18" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="51.0" layoutX="395.0" layoutY="83.0" stroke="BLACK" strokeType="INSIDE" visible="false" width="53.0" />
+                <Rectangle fx:id="rect19" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="51.0" layoutX="448.0" layoutY="83.0" stroke="BLACK" strokeType="INSIDE" visible="false" width="53.0" />
+                <Rectangle fx:id="rect20" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="51.0" layoutX="501.0" layoutY="83.0" stroke="BLACK" strokeType="INSIDE" visible="false" width="53.0" />
+                <Button layoutX="24.0" layoutY="166.0" mnemonicParsing="false" onAction="#Random" prefHeight="25.0" prefWidth="160.0" text="Random" />
+                <Button layoutX="209.0" layoutY="166.0" mnemonicParsing="false" onAction="#SortingQuick" prefHeight="25.0" prefWidth="160.0" text="сортировать М---&gt;Б" />
+                <Text fx:id="text1" layoutX="39.0" layoutY="62.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+                <Text fx:id="text2" layoutX="92.0" layoutY="62.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+                <Text fx:id="text3" layoutX="145.0" layoutY="62.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+                <Text fx:id="text4" layoutX="198.0" layoutY="62.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+                <Text fx:id="text5" layoutX="251.0" layoutY="62.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+                <Text fx:id="text6" layoutX="304.0" layoutY="62.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+                <Text fx:id="text7" layoutX="357.0" layoutY="62.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+                <Text fx:id="text8" layoutX="410.0" layoutY="62.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+                <Text fx:id="text9" layoutX="463.0" layoutY="62.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+                <Text fx:id="text10" layoutX="516.0" layoutY="62.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+                <Text fx:id="text11" layoutX="39.0" layoutY="113.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+                <Text fx:id="text12" layoutX="92.0" layoutY="113.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+                <Text fx:id="text13" layoutX="145.0" layoutY="113.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+                <Text fx:id="text14" layoutX="198.0" layoutY="113.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+                <Text fx:id="text15" layoutX="251.0" layoutY="113.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+                <Text fx:id="text16" layoutX="304.0" layoutY="113.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+                <Text fx:id="text17" layoutX="357.0" layoutY="113.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+                <Text fx:id="text18" layoutX="410.0" layoutY="113.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+                <Text fx:id="text19" layoutX="463.0" layoutY="113.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+                <Text fx:id="text20" layoutX="516.0" layoutY="113.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+            <Button layoutX="24.0" layoutY="258.0" mnemonicParsing="false" onAction="#OpenFile" prefHeight="25.0" prefWidth="160.0" text="OpenFile" />
+            <Button layoutX="395.0" layoutY="166.0" mnemonicParsing="false" onAction="#qSort" prefHeight="25.0" prefWidth="160.0" text="сортировать Б---&gt;М" />
+            <Button layoutX="24.0" layoutY="291.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="160.0" text="F.A.Q" />
+            </children>
+        </Pane>
+    </children>
+</GridPane>
